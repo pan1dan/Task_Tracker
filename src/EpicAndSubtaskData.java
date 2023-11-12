@@ -19,9 +19,7 @@ public class EpicAndSubtaskData {
             allEpics.add(epic.epicName);
         }
 
-        System.out.println(allEpics);
         return allEpics;
-
     }
 
     String deleteAllEpics() {
@@ -168,6 +166,7 @@ public class EpicAndSubtaskData {
             for (Subtask subtask : epic.listOfSubtasks.values()) {
                 if (subtask.ID == IDOfSubtask) {
                     epic.listOfSubtasks.remove(subtask);
+
                     return "Подзадача успешно удалена";
                 }
             }

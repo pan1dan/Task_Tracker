@@ -19,8 +19,6 @@ public class TaskData {
             allTasks.add(task.taskName);
         }
 
-        //!!
-        System.out.println(allTasks);
         return allTasks;
     }
 

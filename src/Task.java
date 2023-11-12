@@ -5,12 +5,10 @@ public class Task {
     String statusOfTask;
     int ID = 0;
 
-
     Task (String taskName) {
         this.taskName = taskName;
         this.statusOfTask = "NEW";
     }
-
 
     @Override
     public int hashCode() {
